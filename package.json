@@ -1,5 +1,5 @@
 {
-  "name": "daily_reflection_app",
+  "name": "daily_reflection_application",
   "version": "1.0.0",
   "description": "An API that allows a user to reflect on his activities everyday so he/she can plan and prepare better for the next day.",
   "main": "index.js",
