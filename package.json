@@ -1,0 +1,34 @@
+{
+  "name": "daily_reflection_app",
+  "version": "1.0.0",
+  "description": "An API that allows a user to reflect on his activities everyday so he/she can plan and prepare better for the next day.",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"\"\u001b[Decho \\\"\"\u001b[DError: no test specified\\\" && exit 1\"",
+    "build": "babel server.js --out-dir build",
+    "dev-start": "babel-watch server.js"
+  },
+  "keywords": [
+    "API",
+    "Nodejs",
+    "expressjs",
+    "data",
+    "structure",
+    "postgreSQL",
+    "\u001b[D",
+    "DB",
+    "JWT"
+  ],
+  "author": "Nnamadim Cyril Uchenna",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "moment": "^2.22.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^2.0.7"
+  }
+}
