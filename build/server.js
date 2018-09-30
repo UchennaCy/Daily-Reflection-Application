@@ -11,7 +11,7 @@ var app = (0, _express2.default)() // server.js
 app.use(_express2.default.json())
 
 app.get('/', function (req, res) {
-  return res.status(200).send({ 'message': 'YAY! I just created my first conscious endpoint, and its working' })
+  return res.status(200).send({ 'message': 'Wow! I just created my first conscious endpoint, and its working fine' })
 })
 
 app.listen(3000)
