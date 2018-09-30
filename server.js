@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 
 app.get('/', (req, res) => {
-  return res.status(200).send({ 'message': 'YAY! I just created my first conscious endpoint, and its working' })
+  return res.status(200).send({ 'message': 'Wow! I just created my first conscious endpoint, and its working fine' })
 })
 
 app.listen(3000)
